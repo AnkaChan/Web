@@ -15,10 +15,16 @@
     <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
     <link rel="icon" href="./assets_files/favicon.ico">
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
 </head>
 
-
 <body>
+
 
 <div class="container span3 hidden-phone">
     <div id="floating_sidebar" class="span3">
@@ -41,7 +47,7 @@
             <br><br>
             ankachan@126.com <br>
             <img src="./assets_files/GitHub-Mark.png" class="icon-adjust"> <a target="_blank"
-                                                                              href="http://www.github.com/ankachan">Github</a>
+                                                                              href="http://www.github.com/ankachan/">Github</a>
             <img src="./assets_files/qq.png" class="icon-adjust"> 994823712
             <img src="./assets_files/wechat.png" class="icon-adjust"> anka199210<br>
         </div>
@@ -198,7 +204,7 @@
             </div>        
 			<div class="media">
                 <a class="pull-left">
-                    <img class="media-object" src="./assets_files/NeighborhoodShift.png" width="220px" height="250px">
+                    <img class="media-object" src="./assets_files/knapsack.png" width="220px" height="250px">
                 </a>
 				<br />
                 <div class="media-body">
@@ -210,21 +216,43 @@
 					 <br />
 						<i>Frontiers in Algorithmics </i>
 						<a
-							href="https://www.sciencedirect.com/science/article/pii/S0377042717301978/">[Page]</a>, 
+							href="http://www.bookmetrix.com/detail/chapter/46f96b06-8172-489a-8044-4a136e2a689f#downloads/">[Page]</a>, 
 						<a
-							href="https://www.sciencedirect.com/sdfe/pdf/download/read/noindex/pii/S0377042717301978/1-s2.0-S0377042717301978-main.pdf">[PDF].</a>
+							href="http://www.bookmetrix.com/detail_full/chapter/46f96b06-8172-489a-8044-4a136e2a689f#downloads/">[PDF].</a>
 						<br />
-						Xin HanEmail authorNing MaKazuhisa MakinoHe Chen
+						Xin Han, Ning Ma, Kazuhisa Makino, He Chen
                     </p>
                     <p class="abstract-text">
-                        We present a fast and quality normal estimator based on neighborhood shift.
-						Instead of using the neighborhood centered at the point, we wish to locate a neighborhood containing 
-						the point but clear of sharp features, which is usually not centering at the point.
-						Two specific neighborhood shift techniques are designed in view of the complex structure of sharp 
-						features and the characteristic of raw point clouds.
+                       In this paper, we address an online knapsack problem under concave function $f ( x )$, i.e., an item with size x has its profit $f ( x )$. We first obtain a simple lower bound $\max \{q, \frac{f'(0)}{f(1)}\}$ , where $q \approx 1.618$ , then show that this bound is not tight, and give an improved lower bound. Finally, we find the online algorithm for linear function [ 8 ] can be employed to the concave case, and prove its competitive ratio is $\frac{f'(0)}{f(1/q)}$ , then we give a refined online algorithm with a competitive ratio $\frac{f'(0)}{f(1)} +1$ . And we also give optimal algorithms for some piecewise linear functions.
                     </p>
                 </div>
             </div>   
+			<div class="media">
+                <a class="pull-left">
+                    <img class="media-object" src="./assets_files/meshSaliency.png" width="220px" height="250px">
+                </a>
+				<br />
+                <div class="media-body">
+					
+                    <p class="media-heading">
+                        <strong>
+                             Mesh saliency detection via double absorbing Markov chain in feature space
+                     </strong>
+					 <br />
+						<i>The Visual Computer </i>
+						<a
+							href="https://link.springer.com/article/10.1007/s00371-015-1184-x/">[Page]</a>,
+							<a
+							href="https://www.researchgate.net/profile/Junjie_Cao/publication/284722787_Mesh_saliency_detection_via_double_absorbing_Markov_chain_in_feature_space/links/5657776208aeafc2aac10256.pdf">[PDF].</a>
+						<br />
+						<br />
+						Xiuping Liu, Pingping Tao, Junjie Cao, He Chen, Changqing Zou
+                    </p>
+                    <p class="abstract-text">
+                       We propose a mesh saliency detection approach using absorbing Markov chain. Unlike most of the existing methods based on some center-surround operator, our method employs feature variance to obtain insignificant regions and considers both background and foreground cues. Firstly, we partition an input mesh into a set of segments using Ncuts algorithm and then each segment is over segmented into patches based on Zernike coefficients. Afterwards, some background patches are selected by computing feature variance within the segments. Secondly, the absorbed time of each node is calculated via absorbing Markov chain with the background patches as absorbing nodes, which gives a preliminary saliency measure. Thirdly, a refined saliency result is generated in a similar way but with foreground nodes extracted from the preliminary saliency map as absorbing nodes, which inhibits the background and efficiently enhances salient foreground regions. Finally, a Laplacian-based smoothing procedure is utilized to spread the patch saliency to each vertex. Experimental results demonstrate that our scheme performs competitively against the state-of-the-art approaches.
+                    </p>
+                </div>
+            </div> 
 
             <!--<div class="media">-->
             <!--<a class="pull-left" href="#top">-->
@@ -251,7 +279,7 @@
             <h3>
                 <a name="projects"></a> Projects
             </h3>
-            Link to my <a target="_blank" href="https://github.com/yihui-he">[github public projects]</a>
+            Link to my <a target="_blank" href="https://github.com//ankachan/">[github public projects]</a>
 
             <div class="media">
                 <a class="pull-left">
